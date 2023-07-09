@@ -2,6 +2,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .text-primary{
     color: #208f20;
 }
@@ -18,24 +19,44 @@ padding: 5px 15px ;
 }
 
 /*nav related styles */
+
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 150px;
 }
+
 .nav-title{
     color: #040504;
     font-size: 45 px;
     font-weight: 800;
 }
+
 nav > ul{
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a{
     text-decoration: none;
     color: #767976;
+}
+
+
+/* Header related styles */
+.header{
+    background-color: rgb(228, 221, 212);
+}
+.banner{
+    padding: 35px 35px 35px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500p;
 }
