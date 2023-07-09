@@ -57,6 +57,6 @@ nav a{
     display: flex;
     align-items: center;
 }
-.profile-pic{
-    width: 500p;
+.banner .profile-pic{
+    width: 500px;
 }
