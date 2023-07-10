@@ -18,6 +18,20 @@ font-weight: 700;
 padding: 5px 15px ;
 }
 
+.section-title {
+    color: #040504;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+
+}
+
+.section-description {
+    color: #767976;
+    text-align: center;
+    font-size: 18px;
+}
 /*nav related styles */
 
 nav{
@@ -51,12 +65,53 @@ nav a{
 /* Header related styles */
 .header{
     background-color: rgb(228, 221, 212);
+    background-image: url('../images/bachgroundimg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+    
 }
 .banner{
-    padding: 35px 35px 35px 150px;
+    padding: 35px 35px 0px 150px;
     display: flex;
     align-items: center;
 }
 .banner .profile-pic{
     width: 500px;
+    justify-content: space-between;
+}
+
+.banner-greeting{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85;
+    font-style: normal;
+    font-weight: 700px;
+    margin-top: 5px;
+}
+/* main sections style */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about sections style */
+.about { 
+    padding: 30px;
+    border-radius: 10px;
+    background: #bdd3bd ;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-inf{
+    text-align: center;
 }
